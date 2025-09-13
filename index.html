@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Training Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Football Training Hub</h1>
+    <p>Come to the pitch and improve your skills</p>
+  </header>
+
+  <main>
+    <!-- Part 1: CSS3 Transitions & Animations -->
+    <section>
+      <h2>Ball Practice Drill</h2>
+      <button class="hover-btn">Take a Shot</button>
+      <div class="animated-box"></div>
+    </section>
+
+    <!-- Part 2: JavaScript Functions -->
+    <section>
+      <h2>Add Goals + Assists</h2>
+      <div id="function-demo">
+        <input type="number" id="num1" placeholder="Enter number 1">
+        <input type="number" id="num2" placeholder="Enter number 2">
+        <button onclick="showSum()">Total Contribution</button>
+        <p id="sum-result">Sum:</p>
+      </div>
+    </section>
+
+    <!-- Part 3: Combining JS + CSS Animations -->
+    <section>
+      <h2>Santiago Bernabeu</h2>
+      <button id="animate-btn">Spin the Ball</button>
+      <div class="dynamic-box" id="dynamic-box"></div>
+
+      <button id="modal-btn">Coach’s Tip of the Day</button>
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <p>If you don't kill Real Madrid, Madrid will kill you💀</p>
+          <button id="close-modal">Close</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
